@@ -1,0 +1,98 @@
+/* Media Quary */
+/* Mobile Devices */
+@media only screen and (max-width:668px) {
+   .section-1{width: 100%}
+ .players{grid-template-columns: repeat(2, 1fr); justify-content: center;
+    align-items: center;
+}
+ .player{flex-direction: column }
+    .section-2{width: 100%}
+    .section-3{width: 100%}
+}
+/* Font Style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{font-family: 'Poppins', sans-serif;}
+.section-1{background-color: #2D25A0; 
+    color: white;
+    height: 677px;width: 1440px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+justify-content: center;
+}
+    .website-title{font-size: 65px;}
+.fa-arrow-right{color: white;}
+.Link-type{ font-size: 1.1em;color: white;
+background-color: #E02C6D;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;}
+.Conmebol-Profile img{
+    height: 438px;
+    width: 557px; ;
+}
+.conmebol{margin-left: 80px;}
+
+/* Section-2 */
+
+.players{
+    
+    display: grid;
+grid-template-columns: repeat(3, 1Fr);
+grid-row-gap: 30px;
+grid-column-gap: 30px;
+justify-content: center;
+align-items: center;
+padding-left: 30px;
+}
+.player{width: 330px;
+height: 474px;
+border: solid 0;}
+.player h3 {text-align: center;}
+.player p{ text-justify: auto; font-size: 12px;
+padding-bottom: 5px;}
+.players img{width: 280px;
+height: 300px;
+padding-left: 20px;
+padding-top: 10px;
+}
+.player{box-shadow: 10px 10px 40px grey;
+padding-left: 10px;
+padding-right: 5px;
+border-radius: 8px;}
+.section-2{margin-bottom: 30px;}
+/* Section-3 */
+.match-picture img{width: 400px;
+height: 300px; border: hidden 1px;
+border-radius: 5px;
+padding-left: 80px;}
+.match{display: flex; 
+justify-content: space-between;
+justify-content: center;
+align-items: center;}
+.match-details{padding-left: 30px;
+height: 400px;
+width: 300px;
+justify-content: center;
+align-items: center;}
+.heading-2{font-size: 35px;}
+
+/* Footer  */
+.Footer{width: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 20px;
+
+}
+.Footer img 
+{ width: 120px;height: 50px;
+    position: relative;
+    top: -16px;
+    right: -60px;
+    
+}
+i{padding-left: 10px;}
+.insta{padding-left: 75px;}
+footer p{font-size: 9px;
+text-align: center;}
