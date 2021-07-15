@@ -6,6 +6,21 @@
 /* Font Style  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* header */
+header{height:50px ;width: 1440px;
+    background-color:#2D25A0}
+.Navbar .nav-title{ text-decoration: none;
+color: white; padding: 20px;}
+.Navbar{margin-left: 300px; padding-top: 20px;}
+.Login{margin-left: 300px;
+text-decoration: none;
+color: white;
+border-radius: 5px;
+background-color:#E02C6D ;
+padding: 10px;}
+
+/* header */
+
 body{font-family: 'Poppins', sans-serif;}
 .section-1{background-color: #2D25A0; 
     color: white;
