@@ -2,7 +2,6 @@
 /* Mobile Devices */
 @media only screen and (max-width:668px) {
 .players{grid-template-columns: repeat(1, 1fr)}
-.player{ flex-direction: column}
 }
 /* Font Style  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
